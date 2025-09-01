@@ -3,7 +3,8 @@
 <body>
 
 <h1>Nettisivu</h1>
-<p>Bottom Text.</p>
+<p>Top Text</p>
+<p>Bottom Text</p>
 
 </body>
 </html> 
