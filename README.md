@@ -1,2 +1,2 @@
-# K-YTT-LIITTYM-
+# KAYTTOLIITTYMA
 Projektin käyttöliittymä osuus
