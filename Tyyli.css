@@ -1,0 +1,33 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: black;
+}
+h2 {
+  color: black;
+}
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:visited {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
