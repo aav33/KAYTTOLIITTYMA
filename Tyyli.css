@@ -4,6 +4,36 @@ body {
       background: url("taitaja2022pori_1581.jpg") no-repeat center center fixed;
       background-size: cover;
     }
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      background-color: #6ED2F2;
+      color: white;	
+	}
+.brand{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:50px;
+    }	
+main{
+      flex:1;
+      padding:clamp(18px, 5vw, 48px);
+      display:grid;
+      place-items:center;
+    }
+    .card{
+      width:min(980px, 94%);
+      background:var(--card-bg);
+	  background-color: white;
+      border:1px solid rgba(255,255,255,.7);
+      border-radius:22px;
+      padding:clamp(18px, 3vw, 30px);
+      box-shadow:1 24px 48px rgba(0,0,0,.22);
+	  text-align: center;
+    }
 h1 {
   color: black;
   font-family: Frutiger_LT_Pro_UltraBlack;
