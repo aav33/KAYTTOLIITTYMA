@@ -1,8 +1,12 @@
 body {
-  background-color: powderblue;
-}
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("taitaja2022pori_1581.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
 h1 {
   color: black;
+  font-family: Frutiger_LT_Pro_UltraBlack;
 }
 h2 {
   color: black;

@@ -2,17 +2,43 @@
 <html>
 <head>
 <link rel="stylesheet" href="Tyyli.css">
+<style>
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      background-color: #6ED2F2;
+      color: white;	
+	}
+.brand{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:12px;
+    }	
+	
+	
+</style>
 </head>
 <body>
+  <header class="header" role="banner">
+    <div class="brand">
+      <img class="logo" src="Taitaja-logo-Turku-2025-vaaka.png" alt="Taitaja9 logo" />
+	  <h1 style="font-size: 50px;">Taitaja 9 Tulossivusto</h1>
+    </div>
 
-<h1>Taitaja9</h1>
-<p style="background-color:#6ED2F2;">‎ </p>
-<a href="Nettisivu2.html">Taitaja9 kilpailun tietojenlisäys</a> 
-<p> </p>
-<a href="Kuvat.html">Kuvia Taitaja 2022 kilpailusta</a>
-<p style="background-color:#6ED2F2;">‎ </p>
-<p></p>
+    <form class="search" action="#" method="get" role="search" aria-label="Sivustohaku">
+      <input type="search" name="q" placeholder="Hae…" aria-label="Hakusana" />
+      <button type="submit" aria-label="Hae">Hae</button>
+    </form>
 
+    <nav class="primary" aria-label="Päävalikko">
+      <ul>
+        <li><a href="kuvat.html">Kuvat</a></li>
+      </ul>
+    </nav>
+  </header>
 
 </body>
 </html> 
