@@ -1,7 +1,7 @@
 body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: url("taitaja2022pori_1581.jpg") no-repeat center center fixed;
+      background: url("taitaja2.jpg") no-repeat center center fixed;
       background-size: cover;
     }
 .header {
@@ -22,7 +22,7 @@ main{
       flex:1;
       padding:clamp(18px, 5vw, 48px);
       display:grid;
-      place-items:center;
+      align-items:right-side;
     }
     .card{
       width:min(720px, 100%);
@@ -32,12 +32,50 @@ main{
       padding:clamp(18px, 3vw, 30px);
 	  text-align: center;
     }
+    .card2{
+      width:min(720px, 100%);
+	  background-color: white;
+      border:5px outset #6ED2F2;
+      border-radius:22px;
+      padding:clamp(18px, 3vw, 30px);
+	  text-align: left;
+	  align-items: center;
+    }
+	.card3{
+      width:min(720px, 100%);
+	  background-color: white;
+      border:5px outset #6ED2F2;
+      border-radius:22px;
+      padding:clamp(18px, 3vw, 30px);
+	  text-align: left;
+	  align-items: right;
+    }
 h1 {
   color: black;
   font-family: Frutiger_LT_Pro_UltraBlack;
 }
 h2 {
   color: black;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.image-row {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.small-img {
+  width: 30%;
+  border-radius: 15px;
+  border: 3px solid #6ED2F2;
+  object-fit: cover;
 }
 a:link {
   color: blue;
