@@ -50,6 +50,18 @@ main{
 	  text-align: left;
 	  align-items: right;
     }
+.corner-image {
+  position: absolute;
+  top: 120px;   /* säätää etäisyyttä headerista */
+  right: 20px;  /* kiinnittää oikeaan reunaan */
+}
+
+.corner-image img {
+  width: 180px;       /* säädä sopivaksi */
+  border-radius: 12px;
+  border: 3px solid #6ED2F2;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
 h1 {
   color: black;
   font-family: Frutiger_LT_Pro_UltraBlack;
