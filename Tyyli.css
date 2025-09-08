@@ -1,0 +1,65 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("taitaja2022pori_1581.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      background-color: #6ED2F2;
+      color: white;	
+	}
+.brand{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:50px;
+    }	
+main{
+      flex:1;
+      padding:clamp(18px, 5vw, 48px);
+      display:grid;
+      place-items:center;
+    }
+    .card{
+      width:min(720px, 100%);
+	  background-color: white;
+      border:5px outset #6ED2F2;
+      border-radius:22px;
+      padding:clamp(18px, 3vw, 30px);
+	  text-align: center;
+    }
+h1 {
+  color: black;
+  font-family: Frutiger_LT_Pro_UltraBlack;
+}
+h2 {
+  color: black;
+}
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:visited {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
