@@ -1,2 +1,0 @@
-# KAYTTOLIITTYMA
-Projektin käyttöliittymä osuus
