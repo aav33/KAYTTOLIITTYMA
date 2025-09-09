@@ -82,6 +82,12 @@ h2 {
 h3 {
   font-size: 50px;
 }
+h4 {
+  font-color: black;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 40px;
+}
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -106,9 +112,47 @@ h3 {
 .footer {
   background-color: #222;   
   color: white;            
-  text-align: center;
-  width: 100%;    
-  height: 500px;
+  text-align: center; 
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-header {
+  background-color: #222;   /* sama tausta kuin yläheaderissa */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.footer-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-header .logo {
+  height: 40px; /* pienempi logo kuin yläosassa */
+}
+
+.footer-header .primary ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-header .primary a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-header .primary a:hover {
+  text-decoration: underline;
 }
 
 
